@@ -250,8 +250,10 @@ dopil(False, 0, 0, 0, 0, 250, 170, 70, 30, "Grey", win, 0, 0, 0, 0.5)
 dopil(True, 1, 1, 1, 0, 250, 170, 70, 30, "Grey", win, 30, 200, 0.01, 0.5)
 
 
-
-
+i = 0
+while (i<2):
+	print(i)
+	i+=1
 
 win.getMouse()
 win.close()
