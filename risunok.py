@@ -225,5 +225,7 @@ for i in range(0, 10):
     L.setWidth(5)
     L.draw(win)
 
+print('hello world')
+
 win.getMouse()
 win.close()
